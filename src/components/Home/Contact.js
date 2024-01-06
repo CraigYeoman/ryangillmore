@@ -21,7 +21,7 @@ const Contact = () => {
           <h2 className="display-5 fw-bold lh-1 mb-3 text-black">Contact</h2>
           <MdOutlineEmail size={30} className="mt-2 mb-2" />
           <h4 className="font-weight-bold"></h4>
-          <p className="lead text-black">kl51racing@yahoo.com</p>
+          <p className="lead text-black"></p>
           <p className="lead text-white"></p>
         </div>
       </div>

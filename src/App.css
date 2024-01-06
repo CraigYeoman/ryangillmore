@@ -1,9 +1,19 @@
 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+:root {
+  --primary: rgb(19, 19, 19);
+  --secondary: #ff0d73;
+}
+
+body {
+  font-family: "Roboto Mono" !important;
+}
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("../src/images/hero.jpg");
   background-size: cover;
   height: 420px;
-  margin-top: 35px;
   background-position: center;
 }
 
@@ -12,12 +22,34 @@
 }
 
 .header {
-  background-color: white;
-  box-shadow: 0 10px 20px rgba(0,0,0,.35);
+  z-index: 2;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 1.2vw;
+  padding-bottom: 1.2vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  pointer-events: auto;
+  
 }
 
-.bg-red {
-  background-color: red;
+.nav-link {
+  font-family: "Roboto Mono";
+  font-style: "normal";
+  line-height: 1em;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  color: white;
+  font-size: calc((.7 - 1) * 1.2vw + 1rem);
+  padding: .5em 0 !important;
+}
+
+.bg-main {
+  background-color: var(--primary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
 }
 
 img {

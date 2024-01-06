@@ -23,7 +23,7 @@ const FacebookPagePlugin = ({ url, width, height }) => {
   return (
     <div className="fb-page" data-href={url} data-width={width} data-height={height} data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-tabs="timeline">
       <blockquote cite={url} className="fb-xfbml-parse-ignore">
-        <a href={url}>Karla Leland Racing</a>
+        <a href={url}>Ryan Gillmore Racing</a>
       </blockquote>
     </div>
   );

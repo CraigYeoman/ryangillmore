@@ -11,7 +11,7 @@ const Bio = () => {
             About
           </h1>
           <p className="lead text-white">
-            A description of Karla and how she got in racing.
+            A description of Ryan Gillmore and how she got in racing.
           </p>
           {/* <div className="d-grid gap-2 d-md-flex justify-content-md-start">
             <Button href="#Contact" variant="outline-secondary">
@@ -20,7 +20,7 @@ const Bio = () => {
           </div> */}
         </div>
         <div className="col-10 col-sm-8 col-lg-6 text-center">
-        <FacebookPagePlugin url="https://www.facebook.com/profile.php?id=100072160475597" width={340} height={500} />
+        <FacebookPagePlugin url="https://www.facebook.com/ryan.gillmore.3" width={340} height={500} />
         </div>
         
       </div>

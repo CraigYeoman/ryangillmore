@@ -1,5 +1,5 @@
 {
-  "name": "karlaleland",
+  "name": "ryangillmore",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -45,5 +45,5 @@
     "gh-pages": "^6.1.1",
     "prettier": "3.1.1"
   },
-  "homepage": "https://craigyeoman.github.io/karlaleland"
+  "homepage": "https://craigyeoman.github.io/ryangillmore"
 }

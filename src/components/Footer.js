@@ -16,7 +16,7 @@ const Footer = () => {
             {/* <img src={"logo"} className="bi" alt="logo" width="80" /> */}
           </a>
           <span className="mb-3 mb-md-0 text-white">
-            &copy; {date} Karla Leland Racing
+            &copy; {date} Ryan Gillmore Racing
           </span>
         </div>
 

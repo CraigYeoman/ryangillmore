@@ -1,6 +1,6 @@
 
 import Button from "react-bootstrap/Button";
-import Karla from '../../images/karla'
+import Ryan from '../../images/ryan1.jpg'
 
 const About = () => {
   return (
@@ -8,9 +8,9 @@ const About = () => {
       <div className="row flex-lg-row-reverse align-items-center g-5 p-4 ">
         <div className="col-10 col-sm-8 col-lg-6">
           <img
-            src={Karla}
+            src={Ryan}
             className="d-block mx-lg-auto img-fluid rounded-3"
-            alt="Karla Leland"
+            alt="Ryan Gillmore"
             width="700"
             height="500"
             loading="lazy"
@@ -18,12 +18,12 @@ const About = () => {
         </div>
         <div className="col-lg-6">
           <h2 className="display-5 fw-bold lh-1 mb-3">
-            Karal Leland
+            Ryan Gillmore
           </h2>
           <p className="lead text-secondary">
             Breaking barriers for women in racing.
           </p>
-          <p className="lead text-secondary">
+          <p className="text-secondary">
             I'm excited for the opportuniy to advance in the racing world and move to the ARCA or NASCAR Craftsman Truck series and finallly to the NASCAR Cup Series.  I appreciate the chance to be a positive infulence for all up and coming females interested in racing.
           </p>
           <p className="lead text-secondary">We're always looking to team up with sponsors.</p>
